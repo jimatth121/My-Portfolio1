@@ -1,0 +1,13 @@
+.app {
+  /* background: radial-gradient(
+    ellipse at center,
+    rgba(255, 254, 234, 1) 0%,
+    rgba(255, 254, 234, 1) 35%,
+    #b7e8eb 100%
+  ); */
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  overflow: hidden;
+}
