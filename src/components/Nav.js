@@ -55,22 +55,22 @@ const Nav = ({ onclickhumburger }) => {
         </div>
         <button
           onClick={onMode}
-          className="p-2 relative w-8 h-8 overflow-hidden border-[1px] bg-[black] dark:bg-[white] border-black dark:border-[white] ml-4 rounded"
+          className="p-2 relative w-8 h-8 overflow-hidden border-[1px] bg-[black] dark:bg-[white] text-white dark:text-[black] border-black dark:border-[white] ml-4 rounded "
         >
           <span
-            className={`text-white transition-all absolute ${
+            className={` transition-all absolute ${
               mode
                 ? "bg-main-100 text-main-dark p-1 absolute w-full h-full top-0 left-0 transform origin-bottom-right transition-all delay-100 duration-300"
                 : "bg-main-100 text-main-dark p-1 absolute w-full h-full top-0 left-0 transform origin-bottom-right transition-all delay-100 duration-300 translate-x-12  rotate-90"
             }`}
           >
-            <LightModeIcon className="text-[black]" />
+            <LightModeIcon  />
           </span>{" "}
           <span
-            className={`absolute${
+            className={`absolute ${
               mode
-                ? "bg-main-dark text-white p-1 absolute w-full h-full top-0 left-0 transform origin-bottom-left transition-all delay-100 duration-300 -rotate-90 -translate-x-12"
-                : "bg-main-dark text-white p-1 absolute w-full h-full top-0 left-0 transform origin-bottom-left transition-all delay-100 duration-300"
+                ? "bg-main-dark p-1 absolute w-full h-full top-0 left-0 transform origin-bottom-left transition-all delay-100 duration-300 -rotate-90 -translate-x-12"
+                : "bg-main-dark p-1 absolute w-full h-full top-0 left-0 transform origin-bottom-left transition-all delay-100 duration-300"
             }`}
           >
             <DarkModeIcon />
