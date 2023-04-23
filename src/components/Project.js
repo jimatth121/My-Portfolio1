@@ -1,6 +1,6 @@
 import React from "react";
 import "./Project.css";
-import FolderIcon from "@mui/icons-material/Folder";
+import FolderOpenIcon from '@mui/icons-material/FolderOpen';
 import LinkIcon from "@mui/icons-material/Link";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import ToolTip from "./ToolTip";
@@ -15,10 +15,10 @@ const Project = ({ github, site, technologies, title, body, image }) => {
           backgroundImage: `url("${image}")`,
         }}
       ></div>
-      <div className="project__overlay bg-[rgba(36,_134,_191,_0.8)] ">
+      <div className="project__overlay bg-[rgba(95,166,182,0.9)] dark:bg-[rgba(36,_134,_191,_0.8)] ">
         <div className="project__nav">
           <span>
-            <FolderIcon className="foldericon" />
+            <FolderOpenIcon className="foldericon" />
           </span>
           <span className="flex gap-1">
             <span className="relative px-1 group">
