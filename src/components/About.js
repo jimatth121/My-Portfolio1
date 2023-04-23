@@ -11,13 +11,18 @@ import logo7 from "../images/csslo.png";
 import logo8 from "../images/htmllo.png";
 import logo9 from "../images/reactlogo-removebg-preview.png";
 import backgroundimage from "../images/IMG-20220207-WA0008.jpg";
+import comfy from "../images/comfy-furniture.vercel.app_testing (2).png"
+import netflix from "../images/netflix-clone-944ac.web.app_.png";
+import portfolio from "../images/jimatth.vercel.app_ (2).png";
+import youtubepic from "../images/mat-youtube-ui.vercel.app_.png";
+import amazon from "../images/mat-amazon-ui.vercel.app_.png"
 import Project from "./Project";
 
 const About = () => {
   const arrayOfProducts = [
     {
       site: "https://comfy-furniture.vercel.app/",
-      image: backgroundimage,
+      image: comfy,
       title: "Furniture comfy",
       github: "https://github.com/",
       technologies: ["Javascript", "Context API", "React", "Tailwnd"],
@@ -25,15 +30,15 @@ const About = () => {
     },
     {
       site: "https://netflix-clone-944ac.web.app/",
-      image: backgroundimage,
+      image: netflix,
       title: "NetFlix-Clone",
       github: "https://github.com/",
-      technologies: ["Firebase ","Movietrailer", "React", "Tailwnd","Youtube-Frame"],
+      technologies: ["Firebase","Movietrailer", "React","Youtube-Frame"],
       body: "A simple NetFlix-Clone built with  React, tdbm movie api, movie trailer and youtube framer",
     },
     {
       site: "https://jimatth.vercel.app/",
-      image: backgroundimage,
+      image: portfolio,
       title: "Portfolio",
       github: "https://github.com/",
       technologies: ["Javascript", "Context API", "React", "Tailwind","MUI"],
@@ -41,7 +46,7 @@ const About = () => {
     },
     {
       site: "https://mat-youtube-ui.vercel.app/",
-      image: backgroundimage,
+      image: youtubepic,
       title: "Youtube UI",
       github: "https://github.com/",
       technologies: ["Javascript", "Context API", "React", "Tailwnd"],
@@ -49,7 +54,7 @@ const About = () => {
     },
     {
       site: "https://mat-amazon-ui.vercel.app/",
-      image: backgroundimage,
+      image: amazon,
       title: "Amazon UI",
       github: "https://github.com/",
       technologies: ["Javascript", "Context API", "React", "Tailwnd"],
