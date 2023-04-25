@@ -15,7 +15,7 @@ const Project = ({ github, site, technologies, title, body, image }) => {
           backgroundImage: `url("${image}")`,
         }}
       ></div>
-      <div className="project__overlay bg-[rgba(95,166,182,0.9)] dark:bg-[rgba(36,_134,_191,_0.8)] ">
+      <div className="project__overlay bg-[rgba(98,207,231,0.97)] dark:bg-[rgba(36,_134,_191,_0.8)] ">
         <div className="project__nav">
           <span>
             <FolderOpenIcon className="foldericon" />
