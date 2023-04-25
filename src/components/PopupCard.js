@@ -19,12 +19,12 @@ function onShow(){
   }
 }
   return (
-    <div className=" absolute bottom-10 le block bg-red-600   md:hidden rounded-full ">
+    <div className=" absolute bottom-10  block bg-red-600   md:hidden rounded-full left-3  ">
       <button onClick={onShow} className="h-[40px] w-[40px]">
         <FormatItalicIcon/>
       </button>
    {show ? <div className=" w-[250px] rounded-md block bg-white  md:hidden border-black p-3 absolute bottom-[100%] left-8">
-      <div className="flex gap-x-4 w-[100%] mx-auto pb-2">
+      <div className="flex gap-x-4 w-[100%] mx-auto pb-2 px-2">
        <a href='https://github.com/jimatth121'>
         <GitHubIcon />
        </a>
@@ -38,8 +38,8 @@ function onShow(){
         <FacebookIcon />
        </a>
       </div>
-      <h3>
-        Design inspired byMaya Shavin& Developed by Yours sincerly with 🧡 - ©
+      <h3 className="tracking-wide px-2 ">
+        Design inspired by Maya Shavin & Developed by Yours sincerly with 🧡 - ©
         2021
       </h3>
     </div> : ''}
