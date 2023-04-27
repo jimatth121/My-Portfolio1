@@ -27,7 +27,7 @@ const Nav = ({ onclickhumburger }) => {
 
   return (
     <div className="nav p-4 px-8">
-      <div className="nav__logo h-12 w-12 ">
+      <div className="nav__logo h-8 w-10 ">
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAAB+CAMAAADV/VW6AAAAY1BMVEX///8AAADOzs7S0tKhoaH8/PwEBARPT0/4+PhKSkqTk5PX19fq6uqwsLDv7++np6ceHh7e3t6bm5uFhYVCQkJ+fn4NDQ0tLS1oaGgXFxfDw8O8vLxXV1c0NDR1dXU5OTlfX1/3hdkyAAADg0lEQVRoge2b6ZKjIBCAJQY1Gq+Y0WjO93/KBRQEdMQDN1u13b+mSuCjTxpS48Tu4Wvixo7rfFFc5/BN/AHwgAc84AEPeMADHvCABzzgAQ/4/wCPv4vfugVsWsCEjzb6JrpPfjbhXXTcYoAYXTbi0XX168/5gejuN+E9hIpgFf3ikclb8VSeKwwQndhUG3iEwoUGwMduog08ccA1WkLPfTbJmvZEfuYbIOxnWcJ7HnrOrAHU655lPFtwTgoEocc2awnfr0RTgIzGk1UoukrDydxtZSc5IVWmIwCH2vDndMSaj5xUWzCbqOKupjoKDYvPOO/zB5JCicgrGR8YFNpOr8a157Qb+FiqOlXN6FJvdZcoTIyn1bxup68iPAIGBggUr3tGry/BswhQ+GUsfSQqNpVGD6WP6/H5ufvjfNPWv537UcGPtrtH3uVnMH1YmfCHmvsZ30s1BCthgOatbAyhlGUn4bvV5naj4H7OPzJeGCCRVaeReeJep/GwvehmItBj2f4USWqAmyG1Ml64t11qFBs1/8YNENw0J99eakQgn1mE7CBov1g5cmpR6mIlxHWpUz6Op4KlduM1ngKqfPIu0ZKQTvJsaY/aWt969V5rHkA84MWqfSrYajckAyR6BDB58M+09ttuN+h6falrBhGQiW/3TM4Ea70ec64wgJLsUg08v9QZVvGo7pWUDEBVx1x11TF28ZKenQG6oGAlPtFrv328FOANVRWVoibQlNDFNp4W9bz7SmNcHP0sHwYJYV97Wtx4w3kQ5wHzer9F63j9QFdk0A5Yxj8f2vpyu+M0mnmeouxZwvv0tFUM8I74jeP80egXR2zWFh63HbdkAK+9deM0U/d1Ig2Wbx/vBGmt8FkKMNVlPNvUHnjSb500D6SxdAegn6q2t9wH7zgXNClFN2wvvB4Bii3orQrvi++fbQYiPQDthyd3eH8M/pZX2hM/aoBCufbtiicRcFVToNKW2RmvvF6RY0+/Su6Od6I2BbzRZ4T98eIhpxh57fgLeGIA2u+NPnVYwkc8wkbxpAgW4/N87phteNHE/IL/TTrty3R6mvlxpetjVuH93DBszttOXK/Be8jwojkXzwywXHu9HVyNJxFQXpfhT2ovuBFPLuyLfs7AxQzVF+AN79jD4fOG/dO/4QIe8IAHPOABD3jAAx7wgAc84AEP+Jn4L/8T9Hf/BfwPBm0ksblRWTAAAAAASUVORK5CYII=" />
       </div>
 
@@ -52,7 +52,7 @@ const Nav = ({ onclickhumburger }) => {
           <div className="nav__menu__mode flex">
             <button
               onClick={onClickHandBurger}
-              className="flex p-1 px-1   border-[1px] border-black dark:border-[white] rounded hover:bg-transparent md:hidden"
+              className="flex justify-center items-center p-1 px-1   border-[1px] border-black dark:border-[white] rounded hover:bg-transparent md:hidden"
             >
               <span className="pr-1">Menu</span>
               <MenuIcon />

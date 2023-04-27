@@ -13,7 +13,7 @@ const Resume = () => {
 
   return (
     <div>
-       <button onClick={handleDownload} className=" p-2 px-4 border-[1px] border-black dark:border-[white] rounded hover:bg-transparent">
+       <button onClick={handleDownload} className=" p-2 px-2 border-[1px] border-black dark:border-[white] rounded hover:bg-transparent">
               Resume
             </button>
     </div>
