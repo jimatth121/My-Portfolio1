@@ -7,6 +7,8 @@ import LightModeIcon from "@mui/icons-material/LightMode";
 import Button from "./Button";
 import { Link } from "react-router-dom";
 import { useDarkMode } from "../contexts/ModeContext";
+import Resume from "./Resume";
+
 
 const Nav = ({ onclickhumburger }) => {
   const onClickHandBurger = () => {
@@ -19,6 +21,10 @@ const Nav = ({ onclickhumburger }) => {
   function onMode() {
     changeMode();
   }
+
+  
+
+
   return (
     <div className="nav p-4 px-8">
       <div className="nav__logo h-12 w-12 ">
@@ -34,10 +40,10 @@ const Nav = ({ onclickhumburger }) => {
             <Link to="/about">
               <Button>02.About</Button>
             </Link>
-            <button className="hidden md:flex p-2 px-4 border-[1px] border-black dark:border-[white] rounded hover:bg-transparent">
-              Resume
-            </button>
+           <span className=" hidden md:flex">
+            <Resume/>
 
+           </span>
             {/* <ButtonBorder>
                 <span>Menu</span>
                 <MenuIcon/>

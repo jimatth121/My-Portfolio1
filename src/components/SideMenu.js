@@ -3,6 +3,7 @@ import Button from "./Button";
 import { Link } from "react-router-dom";
 import CancelIcon from "@mui/icons-material/Cancel";
 import "./SideMenu.css";
+import Resume from "./Resume";
 
 const SideMenu = ({onclickcancel, sidemenustate}) => {
   const onCancelMenu=()=>{
@@ -25,9 +26,7 @@ const SideMenu = ({onclickcancel, sidemenustate}) => {
           </Link>
         </span>
         <span>
-          <button className="p-2 px-4 border-[1px] w-[100%] border-black dark:border-[white] rounded hover:bg-transparent">
-            Resume
-          </button>
+          <Resume/>
         </span>
       </div>
     </div>
