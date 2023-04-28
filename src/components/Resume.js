@@ -1,5 +1,5 @@
 import React from 'react'
-import mattCV from "../images/mattCV.pdf"
+import mattCV from "../images/matthewCv.pdf"
 
 
 const Resume = ({onClick}) => {
