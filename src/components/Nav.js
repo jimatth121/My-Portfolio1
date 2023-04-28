@@ -40,9 +40,8 @@ const Nav = ({ onclickhumburger }) => {
             <Link to="/about">
               <Button>02.About</Button>
             </Link>
-           <span className=" hidden md:flex">
+           <span className=" hidden md:flex justify-between items-center ml-3">
             <Resume/>
-
            </span>
             {/* <ButtonBorder>
                 <span>Menu</span>
@@ -52,7 +51,7 @@ const Nav = ({ onclickhumburger }) => {
           <div className="nav__menu__mode flex">
             <button
               onClick={onClickHandBurger}
-              className="flex justify-center items-center p-1 px-1   border-[1px] border-black dark:border-[white] rounded hover:bg-transparent md:hidden"
+              className="flex justify-center items-center  py-[2px] px-1   border-[1px] border-black dark:border-[white] rounded hover:bg-transparent md:hidden"
             >
               <span className="pr-1">Menu</span>
               <MenuIcon />

@@ -25,8 +25,8 @@ const SideMenu = ({onclickcancel, sidemenustate}) => {
             <Button>02. About</Button>
           </Link>
         </span>
-        <span>
-          <Resume/>
+        <span className=" pl-3 pt-3">
+          <Resume onClick={onCancelMenu}/>
         </span>
       </div>
     </div>
