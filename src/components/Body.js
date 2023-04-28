@@ -5,15 +5,9 @@ import { Link } from 'react-router-dom'
 import mattCV from "../images/matthewCv.pdf"
 
 const Body = () => {
-
-
-
-
- 
-
   const handleDownloadHome = () => {
     const link = document.createElement('a');
-    link.href = mattCV ;
+    link.href = mattCV;
     link.download = 'mattResume.pdf';
     document.body.appendChild(link);
     link.click();

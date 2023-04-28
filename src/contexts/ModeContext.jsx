@@ -8,7 +8,9 @@ import React, {
 const ModeContext = createContext(null);
 
 const ModeContextProvider = (props) => {
-  const [mode, setMode] = useState(false);
+  const [mode, setMode] = useState(()=> localStorage.getItem('mode') === "light" ? false : true);
+ console.log("mode", mode)
+
   useLayoutEffect(() => {
     // On page load or when changing themes, best to add inline in `head` to avoid FOUC
     if (    
@@ -31,7 +33,6 @@ const ModeContextProvider = (props) => {
 
     setMode((prev) => !prev);
   };
-
   return (
     <ModeContext.Provider value={[mode, changeMode]}>
       {props.children}
