@@ -29,7 +29,7 @@ const About = () => {
       body: "Furniture  Comfy is an E-commerce web app that is designed to meet the expectation of the buyer and seller and ensure smooth transaction between them ",
     },
     {
-      site: "https://netflix-clone-944ac.web.app/",
+      site: "https://mat-netflixclone.vercel.app/",
       image: netflix,
       title: "NetFlix-Clone",
       github: "https://github.com/",
@@ -101,20 +101,20 @@ const About = () => {
               Have got any exciting opportunities?, You can reach or catch up
               with me on{" "}
               <a
-                className="underline decoration-wavy"
-                href="https://twitter.com/MEgbedokun" target="_blank"
+                className="underline decoration-wavy font-bold"
+                href="https://twitter.com/MEgbedokun" target="_blank" 
               >
                 Twitter,
               </a>{" "}
               <a
-                className="underline decoration-wavy"
+                className="underline decoration-wavy font-bold"
                 href="https://web.facebook.com/matthew.egbedokun.5" target="_blank"
               >
                 Facebook
               </a>{" "}
               and{" "}
               <a
-                className="underline decoration-wavy"
+                className="underline decoration-wavy font-bold"
                 href="https://www.instagram.com/matthewegbedokun/" target="_blank"
               >
                 Instagram.
