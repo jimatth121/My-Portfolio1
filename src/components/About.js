@@ -101,20 +101,20 @@ const About = () => {
               Have got any exciting opportunities?, You can reach or catch up
               with me on{" "}
               <a
-                className="underline decoration-wavy font-bold"
+                className="underline decoration-wavy "
                 href="https://twitter.com/MEgbedokun" target="_blank" 
               >
                 Twitter,
               </a>{" "}
               <a
-                className="underline decoration-wavy font-bold"
+                className="underline decoration-wavy "
                 href="https://web.facebook.com/matthew.egbedokun.5" target="_blank"
               >
                 Facebook
               </a>{" "}
               and{" "}
               <a
-                className="underline decoration-wavy font-bold"
+                className="underline decoration-wavy "
                 href="https://www.instagram.com/matthewegbedokun/" target="_blank"
               >
                 Instagram.
