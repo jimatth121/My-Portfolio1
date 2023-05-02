@@ -20,10 +20,10 @@ const Body = () => {
         <h1 className='text-[2.5rem] md:text-[4rem] font-[700] '>Egbedokun Matthew.</h1>
         </div>
         <div className='pt-8'>
-            <Link to='/about'><h1 className='underline decoration-wavy text-[2.1rem] md:text-[3rem] font-[700] text-end'>Web Developer</h1></Link>
-            <a onClick={handleDownloadHome}><h1 className=' underline decoration-wavy text-[2.1rem] md:text-[3rem] font-[700] text-end hover:cursor-pointer'>Resume</h1></a>
-            <h1 className='text-[2.1rem] md:text-[3rem] font-[700] text-end'>Book Worm</h1>
-            <h1 className='text-[2.1rem] md:text-[3rem] font-[700] text-end'>Fitness Enthusiast</h1>
+            <Link to='/about'><h1 className='underline decoration-wavy text-[2.1rem] md:text-[3rem] font-[500] text-end'>Web Developer</h1></Link>
+            <a onClick={handleDownloadHome}><h1 className=' underline decoration-wavy text-[2.1rem] md:text-[3rem] font-[500] text-end hover:cursor-pointer'>Resume</h1></a>
+            <h1 className='text-[2.1rem] md:text-[3rem] font-[500] text-end'>Book Worm</h1>
+            <h1 className='text-[2.1rem] md:text-[3rem] font-[500] text-end'>Fitness Enthusiast</h1>
         </div>
     </div>
   )
