@@ -2,7 +2,7 @@ import React from 'react'
 import ProfilePicture from './ProfilePicture'
 import './Body.css'
 import { Link } from 'react-router-dom'
-import mattCV from "../images/matthewCv.pdf"
+import mattCV from "../images/matthew.pdf"
 
 const Body = () => {
   const handleDownloadHome = () => {
