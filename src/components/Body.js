@@ -161,7 +161,7 @@ const Body = () => {
             <div className="header">
               <h1 className="mb-2">
                 {" "}
-                <small className="text-sm">02.</small> A bit about Me
+                <small className="text-sm">02.</small> About Me
               </h1>
               <hr />
             </div>
