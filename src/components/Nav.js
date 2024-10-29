@@ -75,7 +75,7 @@ const Nav = ({ onclickhumburger }) => {
             </button>
           </div>
         </div>
-        <button
+        {/* <button
           onClick={onMode}
           className={`p-2 relative w-8 h-8 overflow-hidden border-[1px] bg-[black]  dark:bg-[white] text-white dark:text-[black] border-black dark:border-[white] ml-4 rounded`}
         >
@@ -97,7 +97,7 @@ const Nav = ({ onclickhumburger }) => {
           >
             {<DarkModeIcon />}
           </span>
-        </button>
+        </button> */}
       </div>
     </div>
   );
