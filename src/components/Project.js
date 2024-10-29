@@ -1,6 +1,6 @@
 import React from "react";
 import "./Project.css";
-import FolderOpenIcon from '@mui/icons-material/FolderOpen';
+import FolderOpenIcon from "@mui/icons-material/FolderOpen";
 import LinkIcon from "@mui/icons-material/Link";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import ToolTip from "./ToolTip";
@@ -41,7 +41,7 @@ const Project = ({ github, site, technologies, title, body, image }) => {
         >
           {title}
         </a>
-        <p className="text-sm mt-4">{body}</p>
+        <p className="text-sm mt-4  font-InterReg tracking-wide	">{body}</p>
 
         <div className="footer flex gap-2 mb-2">
           {technologies.map((each, index) => {

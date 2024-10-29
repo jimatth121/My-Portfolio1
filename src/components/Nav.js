@@ -34,6 +34,7 @@ const Nav = ({ onclickhumburger }) => {
         <div className="  font-semibold   ">
           <div className="  hidden md:flex gap-10 justify-center items-center">
             <button
+              className="tracking-wide	"
               onClick={() => {
                 ScrollToView("home");
               }}
@@ -41,6 +42,7 @@ const Nav = ({ onclickhumburger }) => {
               01.Home
             </button>
             <button
+              className="tracking-wide	"
               onClick={() => {
                 ScrollToView("about");
               }}
@@ -48,6 +50,7 @@ const Nav = ({ onclickhumburger }) => {
               02.About
             </button>
             <button
+              className="tracking-wide	"
               onClick={() => {
                 ScrollToView("projects");
               }}

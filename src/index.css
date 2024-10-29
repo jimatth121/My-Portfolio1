@@ -15,3 +15,8 @@
     background: #18122b;
   }
 }
+
+@font-face {
+  font-family: "InterReg";
+  src: url("/public/fonts/Inter-Regular.ttf");
+}

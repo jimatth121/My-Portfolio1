@@ -21,6 +21,7 @@ import portfolio from "../images/jimatth.vercel.app_ (2).png";
 import youtubepic from "../images/mat-youtube-ui.vercel.app_.png";
 import workSpace from "../images/989workspace.PNG";
 import KundakidsImage from "../images/kundakidsimage.PNG";
+import SummerchallengeImage from "../images/summerchanllengeImage.PNG";
 
 import amazon from "../images/mat-amazon-ui.vercel.app_.png";
 import Project from "./Project";
@@ -37,6 +38,31 @@ const Body = () => {
 
   const arrayOfProducts = [
     {
+      site: "https://989workspace.vercel.app/",
+      image: workSpace,
+      title: "989 workspaces",
+      github: "https://github.com/",
+      technologies: ["Javascript", "Context API", "React", "Tailwnd"],
+      body: "989 workspaces facilitates the rental and booking of meeting rooms and office spaces. Users can conveniently browse available locations, assess amenities, and verify real-time availability.  ",
+    },
+    {
+      site: "https://web.kundakidsapi.com/",
+      image: KundakidsImage,
+      title: "Kundakids WepApp",
+      github: "https://github.com/",
+      technologies: ["Javascript", "Context API", "React", "Tailwind", "MUI"],
+      body: "Kundakids web application is designed to enhance children's literacy by providing a rich collection of reading stories, audiobooks, and educational videos in various African languages. ",
+    },
+
+    {
+      site: "https://web.kundakidsapi.com/summer-challenge",
+      image: SummerchallengeImage,
+      title: "Summer Chanllenge",
+      github: "https://github.com/",
+      technologies: ["Javascript", "Context API", "React", "Tailwind", "MUI"],
+      body: "Kunda Kids 21-Day Summer Reading Challenge, The website highlights the benefits of joining the challenge, including boosting brainpower, participating in a leaderboard race, and sparking creativity.  ",
+    },
+    {
       site: "https://comfy-furniture.vercel.app/",
       image: comfy,
       title: "Furniture comfy",
@@ -44,14 +70,7 @@ const Body = () => {
       technologies: ["Javascript", "Context API", "React", "Tailwnd"],
       body: "Furniture  Comfy is an E-commerce web app that is designed to meet the expectation of the buyer and seller and ensure smooth transaction between them ",
     },
-    {
-      site: "https://comfy-furniture.vercel.app/",
-      image: workSpace,
-      title: "989 workspaces",
-      github: "https://github.com/",
-      technologies: ["Javascript", "Context API", "React", "Tailwnd"],
-      body: "989 workspaces facilitates the rental and booking of meeting rooms and office spaces. Users can conveniently browse available locations, assess amenities, and verify real-time availability.  ",
-    },
+
     {
       site: "https://mat-netflixclone.vercel.app/",
       image: netflix,
@@ -67,15 +86,6 @@ const Body = () => {
       github: "https://github.com/",
       technologies: ["Javascript", "Context API", "React", "Tailwind", "MUI"],
       body: "My personal portfolio built with React and tailwind and hosted on vercel",
-    },
-
-    {
-      site: "https://jimatth.vercel.app/",
-      image: KundakidsImage,
-      title: "Kundakids WepApp",
-      github: "https://github.com/",
-      technologies: ["Javascript", "Context API", "React", "Tailwind", "MUI"],
-      body: "Kundakids web application is designed to enhance children's literacy by providing a rich collection of reading stories, audiobooks, and educational videos in various African languages. ",
     },
 
     {
@@ -146,7 +156,7 @@ const Body = () => {
             <h2 className="mt-8">
               <span className="wave">👋</span>Hey There!
             </h2>
-            <p>
+            <p className=" font-InterReg">
               <span className="first__letter">M</span>y name is{" "}
               <strong>Matthew</strong>. A
               <span className="makeit__bold"> Frontend Web Developer </span>{" "}
@@ -155,19 +165,19 @@ const Body = () => {
               problems relating to the web by collaborating with other
               developers.{" "}
             </p>
-            <p>
+            <p className=" font-InterReg">
               I am very enthusiastic about developing accessible web
               applications.
             </p>
-            <p>
+            <p className=" font-InterReg">
               I am looking to be part of Engineering teams in Agile and
               Innovative companies, accessible web applications, ally type
               accessibility, I am a proactive team player who likes challenges,
               achieving goals, and learning.
             </p>
-            <p>
-              Have got any exciting opportunities?, You can reach or catch up
-              with me on{" "}
+            <p className=" font-InterReg ">
+              Have you got any exciting opportunities?, You can reach or catch
+              up with me on{" "}
               <a
                 className="underline decoration-wavy font-bold "
                 href="https://twitter.com/MEgbedokun"
@@ -193,9 +203,9 @@ const Body = () => {
               or you can just mail me directly{" "}
             </p>
             <p className="mail_button">
-              <a>
+              <a className="text-white ">
                 <svg
-                  className="svg"
+                  className="svg text-white"
                   width="20px"
                   height="20px"
                   xmlns="http://www.w3.org/2000/svg"
@@ -206,12 +216,14 @@ const Body = () => {
                 send e-mail
               </a>{" "}
             </p>
-            <p>
+            <p className=" font-InterReg">
               In my free time, I try to keep up with new technologies and work
               on side projects to better understand the technologies that I use.
               below are the side projects that I have built while learning .
             </p>
-            <p>Here are few technologies I have used:</p>
+            <p className=" font-InterReg">
+              Here are few technologies I have used:
+            </p>
 
             <div className="technologies__container">
               <span>

@@ -1,9 +1,15 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  darkMode: ["class"],
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      Recoleta: ["Recoleta", "sans-serif"],
+      Hanken: ["Hanken-Grotest", "sans-serif"],
+      Brico: ["Brico", "sans-serif"],
+      Inter: ["Inter", "sans-serif"],
+      InterReg: ["InterReg", "san-serif"],
+      DMSans: ["DMSans", "san-serif"],
+    },
   },
   plugins: [],
 };
