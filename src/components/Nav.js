@@ -25,7 +25,7 @@ const Nav = ({ onclickhumburger }) => {
   const localMode = localStorage.getItem("mode") === "light";
 
   return (
-    <div className="nav p-4 px-8">
+    <div className="nav py-1 md:py-3 md:p-4 px-3 md:px-8">
       <div className="nav__logo h-[100px] w-[130px] ">
         <img src={MatthewLogo} />
       </div>

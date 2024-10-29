@@ -97,10 +97,10 @@ const Body = () => {
   ];
   return (
     <div className=" relative">
-      <div className="relative">
+      <div className="relative ">
         <div
           id="home"
-          className=" pt-8 md:flex md:pt-36 py-8 px-12 justify-between max-w-[1300px] mx-auto "
+          className=" pt-20 md:flex md:pt-36 py-8 px-12 justify-between max-w-[1300px] mx-auto "
         >
           <div>
             <ProfilePicture />
@@ -133,7 +133,7 @@ const Body = () => {
 
         <div
           id="about"
-          className="container1  max-w-[1300px] mx-auto  mt-40 flex justify-center items-center"
+          className="container1 pt-6 md:pt-0  max-w-[1300px] mx-auto   flex justify-center items-center"
         >
           <div className="con2 mt-14 ">
             <div className="header">
@@ -273,7 +273,7 @@ const Body = () => {
         </div>
         <div
           id={"projects"}
-          className="header max-w-[965px] mx-auto pt-14  con2"
+          className="header max-w-[965px] mx-auto pt-20 md:pt-14  con2"
         >
           <div className="header">
             <h1 className="mb-2">
