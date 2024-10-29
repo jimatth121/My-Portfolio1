@@ -1,8 +1,9 @@
-.nav{
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    left: 0;
-    /* background:#b7e8eb  */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  /* background:#b7e8eb  */
 }

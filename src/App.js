@@ -14,7 +14,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="app custome-bg-base text-[black] border-[red] dark:border-[white] dark:custome-bg-dark dark:text-white h-[100vh]">
+      <div className="app relative custome-bg-base text-[black] border-[red] dark:border-[white] dark:custome-bg-dark dark:text-white ">
         <Nav onclickhumburger={() => setIsSideMenu((prev) => !prev)} />
         <SideMenu onclickcancel={setIsSideMenu} sidemenustate={isSideMenu} />
         <Routes>
@@ -22,7 +22,7 @@ function App() {
           <Route path="/about" element={<About />}></Route>
         </Routes>
         <Footer />
-        <Footer2 />
+        {/* <Footer2 /> */}
       </div>
     </BrowserRouter>
   );
