@@ -24,6 +24,7 @@ const SideMenu = ({ onclickcancel, sidemenustate }) => {
       </button>
       <div className="my-auto mx-auto flex flex-col gap-4 justify-center justify-items-center">
         <button
+          className="tracking-wide	"
           onClick={() => {
             ScrollToView("home");
             onCancelMenu();
@@ -32,6 +33,7 @@ const SideMenu = ({ onclickcancel, sidemenustate }) => {
           01.Home
         </button>
         <button
+          className="tracking-wide	"
           onClick={() => {
             ScrollToView("about");
             onCancelMenu();
@@ -40,6 +42,7 @@ const SideMenu = ({ onclickcancel, sidemenustate }) => {
           02.About
         </button>
         <button
+          className="tracking-wide	"
           onClick={() => {
             ScrollToView("projects");
             onCancelMenu();
